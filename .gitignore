@@ -1,0 +1,92 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+## Nu include fișierele generate de runtime
+*.dll
+*.exe
+*.pdb
+*.cache
+*.so
+*.dylib
+
+## User-specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vscode/
+
+## Visual Studio
+.vs/
+
+## Rider / JetBrains
+.idea/
+
+## ASP.NET / Entity Framework
+App_Data/
+migrations/
+
+## Nu urcă setările locale
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Optional: ignori și appsettings.json (dacă nu vrei să fie în git deloc)
+# appsettings.json
+
+## Publish results
+[Pp]ublish/
+*.pubxml
+*.publishproj
+
+## Nu urcă fișiere temporare
+*.tmp
+*.temp
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
